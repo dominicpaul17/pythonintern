@@ -1,0 +1,18 @@
+import json
+
+#to parse th json string
+x='{"name":"Hanvitha","age":5,"city":"chennai"}'
+print(json.loads(x))
+
+#python objects to json string
+a={"name":"Sowmi","age":22,"city":"chennai"}
+b=json.dumps(a)
+print(b)
+
+#List to javascript array
+values=[1,2,3,4,5]
+print(json.dumps(values))
+
+#Tuple to javascript array
+numbers=(1,2,3,4,5)
+print(json.dumps(numbers))
